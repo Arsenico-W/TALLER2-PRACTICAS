@@ -1,0 +1,142 @@
+body{
+    background-image: url(imagenes/fondo.jpg);
+    padding: 2em 11em 0 11em;
+    font-family: "Indie Flower";
+}
+
+.botones{
+    list-style: none;
+    padding: 0;
+    background-color: white;
+    width: 100%;
+    max-width: 1000px;
+    height: 3.7em;
+    margin-bottom: 0;
+
+}
+
+.botones li{
+    display: inline-block;
+    text-align: center;
+}
+
+.botones li a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+.botones li a:hover{
+    background-color: black;
+    color: white;
+}
+
+td{
+    width: 21em;
+    text-align: center;
+    background-color: white;
+}
+
+.pri{
+    background-color: rgb(67, 130, 212);
+    height: 2em;
+}
+
+.cr7{
+    border:0.5em;
+    border-style: double;
+    border-radius: 5em;
+    border-color: red;  
+    padding: 0 3em 0 3em;
+    margin: 1em 2em 1em 2em;
+}
+
+.letra{
+    width: 10em;
+}
+
+.cr{
+    width: 10em;
+}
+
+.lor:hover{
+    padding: 1em;
+    animation: mover 7s infinite;
+}
+
+@keyframes mover{
+    0%{margin-right: 0;}
+    20%{margin-right: 0%;}
+
+    25%{margin-left: -30%;}
+    45%{margin-left: -30%;}
+
+    50%{margin-right: -60%;}
+    70%{margin-right: -60%;}
+
+    75%{margin-left: -30%;}
+    95%{margin-left: -30%;}
+
+    100%{margin-left: 0;}
+}
+
+.cuadros{
+    display: inline-block;
+}
+
+.cuadro1{
+    border:1em;
+    border-style:ridge;
+    border-color: green;
+    width: 7em;
+    height: 4em;
+    margin: 0.5em 0 3em 1em;
+}
+
+.cuadro2{
+    border:1em;
+    border-style: outset;
+    border-color: rgb(31, 34, 172);
+    width: 6em;
+    height: 4em;
+    background-color: rgb(163, 240, 86);
+    position:absolute;
+    left: 21.7em;
+    top: 31em;
+}
+
+.derechos{
+    background-color: black;
+    color: white;
+    padding: 1em;
+}
+
+.texto{
+    float: right;
+    bottom: -200px;
+    width: 13em;
+    margin-right: 2em;
+}
+
+.tabla{
+    float: left;
+    margin-top: 0;
+}
+
+h3, hr{
+    color: rgb(202, 84, 202);
+}
+
+.link:hover{
+    color: red;
+}
+
+h2{
+    text-align: left;
+}
+
+.tit{
+    padding: 1em;
+    text-align: left;
+}
